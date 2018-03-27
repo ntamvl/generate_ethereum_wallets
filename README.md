@@ -44,5 +44,32 @@ gem install bundler
 rbenv users need to run rbenv rehash after installing bundler.
 
 
-## Install generate_ethereum_wallets
+## How to run
+**Clone source:**
+```bash
+cd
+git clone https://github.com/ntamvl/generate_ethereum_wallets.git
+cd generate_ethereum_wallets
+bundle install
+```
+
+**update `.env` config***
+```
+ETHER_HOME=/Users/tamnguyen/Library/Ethereum
+ETHER_HOST=http://127.0.0.1:8545
+MAX_WALLET_COUNT=2
+WALLET_PASSWORD=your_wallet_password
+```
+
+explain variable in `.env`:
+- ETHER_HOME: home folder of Ethereum Wallets
+- ETHER_HOST: address of ethereum jsonrpc
+- MAX_WALLET_COUNT: number of wallets to generate
+- WALLET_PASSWORD: wallets password
+
+**run:**
+```bash
+chmod +x start.sh
+./start.sh
+```
 
