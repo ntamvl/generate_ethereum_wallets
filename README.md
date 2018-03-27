@@ -41,7 +41,7 @@ The last step is to install Bundler
 ```bash
 gem install bundler
 ```
-rbenv users need to run rbenv rehash after installing bundler.
+`rbenv` users need to run `rbenv rehash` after installing bundler.
 
 
 ## How to run
