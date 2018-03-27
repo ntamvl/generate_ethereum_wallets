@@ -63,6 +63,7 @@ def process_generating_wallets
   MAX_WALLET_COUNT.times.each do |index|
     generate_new_wallet(index)
   end
+  puts "\n\nDone."
 end
 
 process_generating_wallets
