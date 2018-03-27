@@ -45,7 +45,7 @@ rbenv users need to run rbenv rehash after installing bundler.
 
 
 ## How to run
-**Clone source:**
+**Clone source and install dependencies:**
 ```bash
 cd
 git clone https://github.com/ntamvl/generate_ethereum_wallets.git
@@ -72,4 +72,7 @@ explain variable in `.env`:
 chmod +x start.sh
 ./start.sh
 ```
+
+
+Enjoy :D
 
