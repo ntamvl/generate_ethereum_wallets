@@ -53,7 +53,7 @@ cd generate_ethereum_wallets
 bundle install
 ```
 
-**update `.env` config***
+**update `.env` config**
 ```
 ETHER_HOME=/Users/tamnguyen/Library/Ethereum
 ETHER_HOST=http://127.0.0.1:8545
