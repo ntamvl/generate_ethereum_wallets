@@ -3,7 +3,7 @@
 ## Need to install
 - rbenv
 - Ruby 2.4.3
-- Ethereum Wallets
+- Ethereum Wallets (https://github.com/ethereum/mist)
 
 ## Install rbenv and Ruby 2.4.3
 **on macOS:**
