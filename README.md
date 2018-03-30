@@ -80,6 +80,11 @@ chmod +x start.sh
 ./start.sh
 ```
 
+**how to export csv:**
+```bash
+chmod +x export.sh
+./export.sh
+```
 
 Enjoy :D
 
