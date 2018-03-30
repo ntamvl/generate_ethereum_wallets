@@ -1,6 +1,6 @@
 require 'csv'
 require 'json'
-require './gen.rb'
+require './lib.rb'
 
 def export_wallets_to_csv
   start_time = Time.now
